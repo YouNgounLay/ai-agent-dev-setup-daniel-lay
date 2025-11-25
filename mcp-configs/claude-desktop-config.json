@@ -1,0 +1,27 @@
+{
+  "preferences": {},
+  "mcpServers": {
+    "rolldice": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "http://localhost:3000/api/mcp"
+      ]
+    },
+    "github": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "Github Token",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "Github Token"
+      }
+    }
+  }
+} 

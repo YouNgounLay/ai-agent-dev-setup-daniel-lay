@@ -16,19 +16,21 @@
 ![image](resources/images/github%20copilot%20with%20vscode%20insider.png)
 
 > Claude Window with 4 MCP Servers Running
-![image](resources/images/claude%20window%20with%204%20mcps%20running.png)
+![image](resources/images/claude%20window%20with%204%20mcp%20servers%20running.png)
 
 ## Installed MCP Server Functionalities 
 
 
-| MCP Server               | Use case                                                                                         | Example                                                                                                                                     |
-| ------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Read & Write Apple Notes | Managing my apple notes, maintaining and changing the note structures as well as creating links. | Find my note about the project deadline and update it.                                                                                      |
-| Control Chrome           | Workflow automation and piloting the Chrome browser.                                             | Using the provided urls, generate a quick summary of the contents listed on the web page.                                                   |
-| Filesystem               | Managing files on my computer - work with code, documents and projects files.                    | Organise my download directory, separate files based on their extension and allocate them into appropriate directory, create one if needed. |
-| Context7                 | Get up-to-date documentation for libraries and frameworks when coding.                           | Show me Next.js routing examples.                                                                                                           |
 
-Installing the above MCP servers was rather quick and server, but other MCP servers might also require you to install other developer tools and packages, as well as generating appropriate API keys. Configuring those MCP servers create quite a bottleneck to the operation. Ultimately, with the help of AI and a lot of debugging, I was slowly working towards setting the right configuration. 
+| MCP Server               | Use case                                                                                         | Example                                                                                   |
+| ------------------------ | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| Read & Write Apple Notes | Managing my apple notes, maintaining and changing the note structures as well as creating links. | Find my note about the project deadline and update it.                                    |
+| Control Chrome           | Workflow automation and piloting the Chrome browser.                                             | Using the provided urls, generate a quick summary of the contents listed on the web page. |
+| Roll Dice                | Generate random numbers for games, decisions or simulations                                      | Roll a 20-sided die for my attack                                                         |
+| Github                   | Complete Github repository management given the token access privilege.                          | Create a new repos.                                                                       |
+
+
+Installing the above MCP servers was quick, I could not find the respository for Bootcamp AI agent & Calendar booking, so I replaced them both with Control Chrome, and Read Write Apple Note. Github MCP server installation was a bit more elaborate, I had to do a quick research, verifying the right source, as it might expose all my repositories if I were not careful. After which, I setup a Github Token, and Docker, the config file, then restart Claude desktop. 
 
 
 
@@ -58,6 +60,10 @@ Submit a single GitHub repository demonstrating complete development environment
     ✅ Git installed (screenshot of 'git --version' command) - Done
     ✅ VS Code Insider running with GitHub Copilot enabled (screenshot) - Done
     ✅ Claude Desktop open with all 4 MCP servers connected (screenshot) - Done 
+        [1] - Rolldice - Done
+        [2] - Github - Done
+        [3] - Bootcamp AI agents - Google MCP Instead
+        [4] - Calendar Booking - Read and write on note instead 
     • Brief explanation of each MCP server's purpose and functionality - Done
     • Troubleshooting notes: any issues you encountered and how you solved them - Done 
 
